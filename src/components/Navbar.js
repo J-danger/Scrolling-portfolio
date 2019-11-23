@@ -6,13 +6,14 @@ class Navbar extends Component {
     state ={}
     render(){
         return(
-            <div className="navbar">
+            <div className="header">
                 
                 <Link
                 activeClass="active"
                 to="main"
                 spy={true}
-                smooth={true}                
+                smooth={true}   
+                offset={-50}             
                 duration= {500}
                 >Home
                 </Link>
@@ -21,7 +22,8 @@ class Navbar extends Component {
                 activeClass="active"
                 to="about"
                 spy={true}
-                smooth={true}                
+                smooth={true}   
+                offset={-50} 
                 duration= {500}
                 >About
                 </Link>
@@ -30,7 +32,8 @@ class Navbar extends Component {
                 activeClass="active"
                 to="projects"
                 spy={true}
-                smooth={true}                
+                smooth={true}  
+                offset={-50}              
                 duration= {500}
                 >Projects
                 </Link> 
@@ -39,7 +42,8 @@ class Navbar extends Component {
                 activeClass="active"
                 to="contact"
                 spy={true}
-                smooth={true}                
+                smooth={true}   
+                offset={-50}             
                 duration= {500}
                 >Contact
                 </Link>

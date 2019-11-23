@@ -1,16 +1,18 @@
-.navbar {
+.header {
   position: fixed;
   top: 0;
   width: 100%;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
-  cursor: pointer
+  cursor: pointer;
+  color: white;  
+  margin-top: 10px;
 }
 
-.navbar a {
+.header a {
   margin: 10px;
-  color: white;
+  
 }
 
 .arrow {
@@ -46,6 +48,13 @@
     
 }
 
+.container-projects {   
+  margin: auto; 
+  text-align: center;
+  color: white;
+  font-family: monospace;   
+  display: block; 
+}
 .projects {
   display: inline-block; 
   margin-top: 15% ;
@@ -57,40 +66,38 @@
   margin: 15px;
 }
 
-.container-projects { 
-  
+
+.contact-form-container{
   margin: auto; 
   text-align: center;
   color: white;
   font-family: monospace;   
   display: block; 
+  
+  
 }
-
 .contact-form{
   display: inline-block; 
-  margin-top: 15% ;
- 
+  width: 30%;
   color: white;
+  text-align: left;
+  margin-top: 15% ;
 }
 
-.contact-form-container{
-  display: block; 
-  text-align: center;
-}
-
-.label {
-  display: inline-block;
-  margin-bottom: .5rem;
-}
 
 .form-control {
-  margin-bottom: 1em;
-  width: 400px;
+   
+  margin-bottom: 1em; 
   color: white;
   background: rgba(0,0,0,0.12);
   box-shadow: 0 3px 6px #000000, 0 3px 6px #000000;
 }
 
+.label {
+  display: inline-block;
+  margin-bottom: .5rem;
+ 
+}
 
 
 .main-section {
@@ -113,6 +120,3 @@
   background-color: tomato
 }
 
-#test {
-  text-align: center;
-}
