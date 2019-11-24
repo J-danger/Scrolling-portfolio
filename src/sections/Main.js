@@ -1,18 +1,16 @@
 import React, { Component } from "react"
 import { Link } from "react-scroll";
 import styled, {keyframes} from "styled-components"
-import { bounce } from 'react-animations'
+import { headShake } from 'react-animations'
 import Github from "../images/github.png"
 import Linkedin from "../images/linkedin.png"
 
-const Bounce = styled.div`animation:2s ${keyframes`${bounce}`} infinite`;
+const Bounce = styled.div`animation:2s ${keyframes`${headShake}`} infinite`;
 
 class Main extends Component {
     state = {}
     render(){
-        // const style = {
-        //     animation: animations.fadeInLeftBig
-        //   }
+        
         return(
             <div className="main-section" id="main">
                 <div className="greeting">
