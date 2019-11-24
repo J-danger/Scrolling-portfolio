@@ -1,15 +1,18 @@
 import React, { Component } from "react"
 import { Link } from "react-scroll";
-import { animations } from 'react-animation'
+import styled, {keyframes} from "styled-components"
+import { bounce } from 'react-animations'
 import Github from "../images/github.png"
 import Linkedin from "../images/linkedin.png"
+
+const Bounce = styled.div`animation:2s ${keyframes`${bounce}`} infinite`;
 
 class Main extends Component {
     state = {}
     render(){
-        const style = {
-            animation: animations.popIn
-          }
+        // const style = {
+        //     animation: animations.fadeInLeftBig
+        //   }
         return(
             <div className="main-section" id="main">
                 <div className="greeting">
@@ -26,8 +29,8 @@ class Main extends Component {
                 </a>
                 </div>
                 </div>
-                
-                <div className="arrow" style={style}>
+                <div className="arrow" >
+                <Bounce> 
                         <Link
                         activeClass="active"
                         to="about"
@@ -36,6 +39,7 @@ class Main extends Component {
                         duration= {500}
                         >&#10140;
                         </Link>
+                </Bounce>
                 </div>
             </div>
         )

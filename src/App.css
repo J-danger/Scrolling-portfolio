@@ -6,9 +6,10 @@
   font-weight: bold;
   font-size: 20px;
   cursor: pointer;
-  color: white;  
+  color: white;
   padding: 10px;
-  background: #25274d
+  background: transparent;
+  z-index: 1;
 }
 
 .header a {
@@ -36,11 +37,12 @@
   cursor: pointer;
 }
 
+
 .greeting {
     position: absolute;  
     left: 25%;  
     right: 25%;  
-    top: 25%;  
+    top: 20%;  
     bottom: 25%;  
     margin: auto; 
     text-align: center;
@@ -135,16 +137,19 @@ background: #25274d
 }
 .contact-form{
   display: inline-block; 
-  width: 30%;
+  width: 40%;
   color: white;
+  text-shadow: 0 3px 6px #000000, 0 3px 6px #000000;
   text-align: left;
-  margin-top: 15% ;
+  margin-top: 10% ;
+  background: rgba(0,0,0,0.9);
+  padding: 30px;
+  border-radius: 5%;
 }
 
 .form-control {
    
-  margin-bottom: 1em; 
-  color: white;
+  margin-bottom: 1em;   
   background: rgba(0,0,0,0.12);
   box-shadow: 0 3px 6px #000000, 0 3px 6px #000000;
 }
@@ -165,20 +170,36 @@ background: #25274d
 
 .main-section {
   height: 100vh;
-  background-color: #25274d
+  /* background-color: #24305e */
+  background: url("https://source.unsplash.com/collection/8966569/1920x1080") no-repeat center center fixed;     
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .about-section {
   height: 100vh;
-  background-color: #464866;
+  
+  background-image: linear-gradient(to top, #29323c 0%, #485563 100%);
 }
 .projects-section {
   height: 100vh;
-  background-color: #24305e
+  background-image: linear-gradient(to top, #485563 0%, #29323c 100%);
+  /* background: url("https://source.unsplash.com/collection/8966549/1920x1080") no-repeat center center fixed;     
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
 }
 
 .contact-section {
   height: 100vh;
-  background-color: #464866
+  /* background-color: #464866 */
+  background: url("https://source.unsplash.com/collection/8966548/1920x1080") no-repeat center center fixed;     
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 

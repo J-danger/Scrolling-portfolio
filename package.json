@@ -8,10 +8,12 @@
     "emailjs-com": "^2.4.1",
     "react": "^16.12.0",
     "react-animation": "^1.2.2",
+    "react-animations": "^1.0.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0",
     "react-scroll": "^1.7.14",
-    "reactstrap": "^8.1.1"
+    "reactstrap": "^8.1.1",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
