@@ -32,7 +32,7 @@ class Main extends Component {
                         activeClass="active"
                         to="about"
                         spy={true}
-                        smooth={true}                
+                        smooth={true}                                     
                         duration= {500}
                         >&#10140;
                         </Link>

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Button } from 'reactstrap'
 
  
 function ProjectCards(props) {
@@ -7,7 +7,7 @@ function ProjectCards(props) {
     <>
        
             <div className="project-card">
-                <a href={props.link} target="_blank"  rel="noopener noreferrer">
+                
                     <div className="project-image">
                     <img 
                         src={props.image} 
@@ -26,7 +26,33 @@ function ProjectCards(props) {
                             {props.category}
                         </p>
                     </div>
-                </a>
+                    <div className="project-button-container">
+                        <Button 
+                            className="project-button"
+                            link={props.githubLink}
+                            >
+                            <a 
+                            href={props.github} 
+                            className="links" 
+                            target="_blank"  
+                            rel="noopener noreferrer"
+                            >Github
+                            </a>
+                        </Button>
+                        <Button 
+                            className="project-button"
+                            link={props.deployed}
+                            >
+                            <a 
+                            href={props.deployed} 
+                            className="links" 
+                            target="_blank"  
+                            rel="noopener noreferrer"
+                            >Deployed
+                            </a>
+                        </Button>
+                    </div>
+                
             </div>
         
     </>

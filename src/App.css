@@ -7,7 +7,8 @@
   font-size: 20px;
   cursor: pointer;
   color: white;  
-  margin-top: 10px;
+  padding: 10px;
+  background: #25274d
 }
 
 .header a {
@@ -64,6 +65,63 @@
 .project-card {
   float: left;
   margin: 15px;
+  width: 300px;
+  height: 375px;
+  border: solid black 1px;
+  border-radius: 5%;
+  padding: 10px;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  background: #0000002f;
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+}
+
+.project-card:hover {
+  text-decoration: none;
+  -webkit-transform: scaleY(1.1) scalex(1.1);
+    transform: scaleY(1.1) scalex(1.1);
+}
+
+img {
+  border-radius: 50%
+}
+
+.links {
+  color: white;
+  
+}
+
+.links:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.project-button{
+margin: 7px;
+background: #25274d
+}
+
+
+.project-button:hover {
+  text-decoration: none;
+  color: white;
+  }
+
+.project-title {
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+.project-category {
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 5px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 
@@ -74,7 +132,6 @@
   font-family: monospace;   
   display: block; 
   
-  
 }
 .contact-form{
   display: inline-block; 
@@ -83,7 +140,6 @@
   text-align: left;
   margin-top: 15% ;
 }
-
 
 .form-control {
    
@@ -96,27 +152,33 @@
 .label {
   display: inline-block;
   margin-bottom: .5rem;
+  font-size: 15px;
  
+}
+
+#contact-text {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: -5%;
 }
 
 
 .main-section {
   height: 100vh;
-  background-color: skyblue
-}
-
-.projects-section {
-  height: 100vh;
-  background-color: mediumpurple;
+  background-color: #25274d
 }
 
 .about-section {
   height: 100vh;
-  background-color: midnightblue;
+  background-color: #464866;
+}
+.projects-section {
+  height: 100vh;
+  background-color: #24305e
 }
 
 .contact-section {
   height: 100vh;
-  background-color: tomato
+  background-color: #464866
 }
 

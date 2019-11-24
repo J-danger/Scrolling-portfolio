@@ -12,8 +12,7 @@ class Navbar extends Component {
                 activeClass="active"
                 to="main"
                 spy={true}
-                smooth={true}   
-                offset={-50}             
+                smooth={true}                               
                 duration= {500}
                 >Home
                 </Link>
@@ -22,8 +21,7 @@ class Navbar extends Component {
                 activeClass="active"
                 to="about"
                 spy={true}
-                smooth={true}   
-                offset={-50} 
+                smooth={true}                  
                 duration= {500}
                 >About
                 </Link>
@@ -32,8 +30,7 @@ class Navbar extends Component {
                 activeClass="active"
                 to="projects"
                 spy={true}
-                smooth={true}  
-                offset={-50}              
+                smooth={true}                               
                 duration= {500}
                 >Projects
                 </Link> 
@@ -43,7 +40,7 @@ class Navbar extends Component {
                 to="contact"
                 spy={true}
                 smooth={true}   
-                offset={-50}             
+                            
                 duration= {500}
                 >Contact
                 </Link>
