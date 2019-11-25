@@ -17,14 +17,14 @@ class Navbar extends Component {
                 >Home
                 </Link>
 
-                <Link
+                {/* <Link
                 activeClass="active"
                 to="about"
                 spy={true}
                 smooth={true}                  
                 duration= {500}
                 >About
-                </Link>
+                </Link> */}
 
                 <Link
                 activeClass="active"

@@ -73,11 +73,6 @@
   position: flex;
 }
 
-.tech-container{
-  
-  
-}
-
 li{
   margin: 10px;
   list-style: none;
@@ -106,7 +101,7 @@ li{
   width: 300px;
   height: 375px;
   border: solid white 1px;
-  border-radius: 5%;
+  border-radius: 5px;
   padding: 10px;
   box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   background: #0000002f;
@@ -116,8 +111,8 @@ li{
 
 .project-card:hover {
   text-decoration: none;
-  -webkit-transform: scaleY(1.1) scalex(1.1);
-    transform: scaleY(1.1) scalex(1.1);
+  -webkit-transform: scaleY(1.05) scalex(1.05);
+    transform: scaleY(1.05) scalex(1.05);
 }
 
 img {
@@ -180,7 +175,7 @@ background: #25274d
   margin-top: 10% ;
   background: rgba(0,0,0,0.9);
   padding: 30px;
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
 .form-control {
@@ -200,7 +195,7 @@ background: #25274d
 #contact-text {
   text-align: center;
   margin-bottom: 5%;
-  margin-top: -5%;
+  margin-top: 5px;
 }
 
 
@@ -222,6 +217,7 @@ background: #25274d
 .projects-section {
   height: 100vh;
   background-image: linear-gradient(to top, #485563 0%, #29323c 100%);
+  overflow-y: scroll;
   /* background: url("https://source.unsplash.com/collection/8966549/1920x1080") no-repeat center center fixed;     
   -webkit-background-size: cover;
   -moz-background-size: cover;

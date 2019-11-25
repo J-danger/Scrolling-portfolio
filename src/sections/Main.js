@@ -31,7 +31,7 @@ class Main extends Component {
                 <Bounce> 
                         <Link
                         activeClass="active"
-                        to="about"
+                        to="projects"
                         spy={true}
                         smooth={true}                                     
                         duration= {500}
