@@ -3,7 +3,7 @@ import Main from "./sections/Main"
 import Projects from "./sections/Projects"
 import Contact from "./sections/Contact"
 import Navbar from "./components/Navbar"
-import About from "./sections/About"
+// import About from "./sections/About"
 
 import './App.css';
 

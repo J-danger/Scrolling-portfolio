@@ -8,7 +8,7 @@
   cursor: pointer;
   color: white;
   padding: 10px;
-  background: transparent;
+  background: rgba(0,0,0,0.2);
   z-index: 1;
 }
 
@@ -96,7 +96,7 @@ li{
 }
 
 .project-card {
-  float: left;
+  display: inline-block; 
   margin: 15px;
   width: 300px;
   height: 375px;
@@ -108,6 +108,29 @@ li{
   -webkit-transition: -webkit-transform .4s ease-in-out;
   transition: transform .4s ease-in-out;
 }
+
+
+
+@media only screen and (max-width: 840px){ 
+  .project-card{
+    float: none;
+  }
+  .projects-section {
+    overflow-y: scroll;
+  }
+   }
+
+
+@media only screen and (min-width: 840px){ 
+  .projects-section {
+    overflow-y: scroll;
+  }
+ 
+
+    }
+
+
+
 
 .project-card:hover {
   text-decoration: none;
@@ -173,10 +196,32 @@ background: #25274d
   text-shadow: 0 3px 6px #000000, 0 3px 6px #000000;
   text-align: left;
   margin-top: 10% ;
-  background: rgba(0,0,0,0.9);
+  background: rgba(0,0,0,0.4);
   padding: 30px;
   border-radius: 10px;
 }
+
+#ContactLinks-bottom{
+  position: relative;
+ 
+  
+ 
+ 
+  
+}
+
+@media only screen and (min-width: 400px)and (max-width: 900px) { 
+  .contact-form{
+    width: 90%;
+    margin-top: 25%;
+  }
+   }
+
+@media only screen and (max-width: 1200px){ 
+  .contact-form{
+  width: 60%;
+  }
+    }
 
 .form-control {
    
@@ -194,8 +239,8 @@ background: #25274d
 
 #contact-text {
   text-align: center;
-  margin-bottom: 5%;
-  margin-top: 5px;
+  
+  
 }
 
 
@@ -217,7 +262,7 @@ background: #25274d
 .projects-section {
   height: 100vh;
   background-image: linear-gradient(to top, #485563 0%, #29323c 100%);
-  overflow-y: scroll;
+  display: block; 
   /* background: url("https://source.unsplash.com/collection/8966549/1920x1080") no-repeat center center fixed;     
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -234,4 +279,6 @@ background: #25274d
   -o-background-size: cover;
   background-size: cover;
 }
+
+
 
