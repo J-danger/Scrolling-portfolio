@@ -75,7 +75,7 @@ class ContactForm extends Component {
                     onChange={this.handleChange.bind(this, 'message')}
                 />
                 </FormGroup>
-            <Button variant="primary" type="submit">
+            <Button className="contact-button" variant="primary" type="submit">
                 Submit
                 </Button>
             </Form>
