@@ -2,8 +2,9 @@ import React, { Component } from "react"
 import ProjectCards from "../components/ProjectCards"
 import project3 from "../images/project3.png"
 import clicky from "../images/clicky.png"
-import webscrape from "../images/webscraper.png"
+import webscrape from "../images/webscraper.svg"
 import burger from "../images/burger.png"
+import bitcoin from "../images/bitcoin.svg"
 
 class Projects extends Component {
     state = {}
@@ -44,6 +45,13 @@ class Projects extends Component {
                     image={burger}
                     title="Burger MVC"
                     category="A full-stack MVC 'burger' logger with a custom ORM"          
+                    />
+                    <ProjectCards
+                    deployed="https://btclast.herokuapp.com/"
+                    github="https://github.com/J-danger/React-API-Calls"
+                    image={bitcoin}
+                    title="Bitcoin Price tracker"
+                    category="A React app for tracking the price of BTC"          
                     />
                         </div>
                 </div>
