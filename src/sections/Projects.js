@@ -51,7 +51,7 @@ class Projects extends Component {
                     github="https://github.com/J-danger/React-API-Calls"
                     image={bitcoin}
                     title="Bitcoin Price tracker"
-                    category="A React app for tracking the price of BTC"          
+                    category="A React app for tracking crypto prices (in progress)"          
                     />
                         </div>
                 </div>
