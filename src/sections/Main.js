@@ -14,8 +14,8 @@ class Main extends Component {
         return(
             <div className="main-section" id="main">
                 <div className="greeting">
-                   <h1> Welcome to my Portfolio!</h1>
-                   <h2> Stephen Howe | Full Stack Web Developer</h2> 
+                   <p> Welcome to my Portfolio!</p>
+                   <p> Stephen Howe | Full Stack Web Developer</p> 
                    <div id="ContactLinks">
                 <a href="https://github.com/J-danger" target="_blank" rel="noopener noreferrer"> 
                     <img className="NavBarIcons" src={Github} alt="Github" height="75px" width="75px">

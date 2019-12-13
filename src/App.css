@@ -40,16 +40,48 @@
 
 .greeting {
     position: absolute;  
-    left: 25%;  
-    right: 25%;  
+    left: 10%;  
+    right: 10%;  
     top: 20%;  
-    bottom: 25%;  
+    bottom: 20%;  
     margin: auto; 
     text-align: center;
     color: white;
-    font-family: monospace;    
-    
+    font-family: monospace; 
+    font-size: 25px;   
+    width: 80%;
 }
+
+@media only screen and (max-width: 1000px){ 
+  .greeting{
+  font-size: 25px;
+  }
+    }
+
+@media only screen and (max-width: 855px){ 
+  .greeting{
+  font-size: 24px;
+  }
+    }
+
+@media only screen and (max-width: 688px){ 
+  .greeting{
+  font-size: 22px;
+  }
+    }
+
+@media only screen and (max-width: 620px){ 
+  .greeting{
+  font-size: 20px;
+  }
+    }
+
+@media only screen and (max-width: 554px){ 
+  .greeting{
+  font-size: 14px;
+  font-weight: bold;
+  }
+    }
 
 
 #aboutMe-container{
@@ -108,6 +140,8 @@ li{
   -webkit-transition: -webkit-transform .4s ease-in-out;
   transition: transform .4s ease-in-out;
 }
+
+
 
 
 
@@ -213,8 +247,10 @@ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   .contact-form{
     width: 90%;
     margin-top: 25%;
-  }
-   }
+  } 
+}
+
+
 
 @media only screen and (max-width: 1200px){ 
   .contact-form{
