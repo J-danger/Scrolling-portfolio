@@ -5,6 +5,7 @@ import clicky from "../images/clicky.png"
 import webscrape from "../images/webscraper.svg"
 import burger from "../images/burger.png"
 import bitcoin from "../images/bitcoin.svg"
+import tictactoe from "../images/tictactoe.png"
 
 class Projects extends Component {
     state = {}
@@ -52,6 +53,14 @@ class Projects extends Component {
                     image={bitcoin}
                     title="Bitcoin Price tracker"
                     category="A React app for tracking crypto prices (in progress)"          
+                    />
+
+<ProjectCards
+                    deployed="https://radiant-falls-98785.herokuapp.com/"
+                    github="https://github.com/J-danger/tic-tac-toe"
+                    image={tictactoe}
+                    title="Tic-Tac-Toe"
+                    category="Tic-Tac-Toe utilizing React Hooks and Javascript"          
                     />
                         </div>
                 </div>
