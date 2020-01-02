@@ -141,13 +141,7 @@ li{
   transition: transform .4s ease-in-out;
 }
 
-
-
-
-
-
-
-@media only screen and (max-width: 1666px){ 
+@media only screen and (max-width: 1980px){ 
   .projects-section {
     overflow-y: scroll;
   }
@@ -156,9 +150,6 @@ li{
   }  
 
     }
-
-
-
 
 .project-card:hover {
   text-decoration: none;
