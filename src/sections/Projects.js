@@ -9,6 +9,7 @@ import bitcoin from "../images/bitcoin.svg"
 import tictactoe from "../images/tictactoe.png"
 import bamazon from "../images/bamazon.jpg"
 import friend from "../images/friendfinder.png"
+import red from "../images/red.png"
 
 class Projects extends Component {
     state = {}
@@ -18,23 +19,37 @@ class Projects extends Component {
             <div className="projects-section" id="projects">
                 <div className="container-projects">
                     <div className="projects">
-                    <ProjectCardsNoDeploy
-                    
+                    <ProjectCardsNoDeploy                    
                     github="https://github.com/J-danger/Bamazon"
                     image={bamazon}
                     title="Bamazon"
-                    category="An Amazon-like storefront using MySQL and Node.js"
-          
+                    category="An Amazon-like storefront using MySQL and Node.js"          
                     />    
                  
                     <ProjectCards
+                    deployed="https://j-danger.github.io/Gem-Collector/"
+                    github="https://github.com/J-danger/Gem-Collector"
+                    image={red}
+                    title="Jewel Collector"
+                    category="A Javascript based Gem Collector Game"                    
+                    />
+
+                     <ProjectCards
                     deployed="https://j-danger.github.io/Clicky-game/"
                     github="https://github.com/J-danger/Clicky-game"
                     image={clicky}
                     title="Clicky Game"
-                    category="A memory game using states in React "
-                    
+                    category="A memory game using states in React "                    
                     />
+
+                    <ProjectCards
+                    deployed="https://calm-lake-18609.herokuapp.com/burgers"
+                    github="https://github.com/J-danger/burger"
+                    image={burger}
+                    title="Burger MVC"
+                    category="A full-stack MVC 'burger' logger with a custom ORM"          
+                    />
+
                     <ProjectCards
                     deployed="https://frightening-eyeballs-04450.herokuapp.com/"
                     github="https://github.com/J-danger/Webscrape"
@@ -44,13 +59,7 @@ class Projects extends Component {
                     target="_blank"
                     git=""
                     />
-                    <ProjectCards
-                    deployed="https://calm-lake-18609.herokuapp.com/burgers"
-                    github="https://github.com/J-danger/burger"
-                    image={burger}
-                    title="Burger MVC"
-                    category="A full-stack MVC 'burger' logger with a custom ORM"          
-                    />
+
                     <ProjectCards
                     deployed="https://btclast.herokuapp.com/"
                     github="https://github.com/J-danger/React-API-Calls"
@@ -64,8 +73,7 @@ class Projects extends Component {
                     github="https://github.com/J-danger/Project-3"
                     image={project3}
                     title="Stack Underflow"
-                    category="A MERN Stack forum for web dev beginners"
-          
+                    category="A MERN Stack forum for web dev beginners"          
                     />
 
                     <ProjectCards
@@ -73,8 +81,7 @@ class Projects extends Component {
                     github="https://github.com/J-danger/FriendFinder"
                     image={friend}
                     title="Friend Finder"
-                    category="A friend finder app using Javascript calculations"
-          
+                    category="A friend finder app using Javascript calculations"          
                     />
 
                     <ProjectCards
