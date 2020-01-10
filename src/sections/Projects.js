@@ -10,6 +10,7 @@ import tictactoe from "../images/tictactoe.png"
 import bamazon from "../images/bamazon.jpg"
 import friend from "../images/friendfinder.png"
 import red from "../images/red.png"
+import train from "../images/train.svg"
 
 class Projects extends Component {
     state = {}
@@ -48,6 +49,14 @@ class Projects extends Component {
                     image={burger}
                     title="Burger MVC"
                     category="A full-stack MVC 'burger' logger with a custom ORM"          
+                    />
+
+                    <ProjectCards
+                    deployed="https://j-danger.github.io/TrainActivity/"
+                    github="https://github.com/J-danger/TrainActivity"
+                    image={train}
+                    title="Train Scheduler"
+                    category="A train scheduler powered by Javascript and Firebase"          
                     />
 
                     <ProjectCards
