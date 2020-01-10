@@ -1,11 +1,14 @@
 import React, { Component } from "react"
 import ProjectCards from "../components/ProjectCards"
+import ProjectCardsNoDeploy from "../components/ProjectCardsNoDeploy"
 import project3 from "../images/project3.png"
 import clicky from "../images/clicky.png"
 import webscrape from "../images/webscraper.svg"
 import burger from "../images/burger.png"
 import bitcoin from "../images/bitcoin.svg"
 import tictactoe from "../images/tictactoe.png"
+import bamazon from "../images/bamazon.jpg"
+import friend from "../images/friendfinder.png"
 
 class Projects extends Component {
     state = {}
@@ -15,14 +18,15 @@ class Projects extends Component {
             <div className="projects-section" id="projects">
                 <div className="container-projects">
                     <div className="projects">
-                    <ProjectCards
-                    deployed="https://infinite-eyrie-10837.herokuapp.com"
-                    github="https://github.com/J-danger/Project-3"
-                    image={project3}
-                    title="Stack Underflow"
-                    category="A MERN Stack forum for web dev beginners"
+                    <ProjectCardsNoDeploy
+                    
+                    github="https://github.com/J-danger/Bamazon"
+                    image={bamazon}
+                    title="Bamazon"
+                    category="An Amazon-like storefront using MySQL and Node.js"
           
-                    />
+                    />    
+                 
                     <ProjectCards
                     deployed="https://j-danger.github.io/Clicky-game/"
                     github="https://github.com/J-danger/Clicky-game"
@@ -55,7 +59,25 @@ class Projects extends Component {
                     category="A React app for tracking crypto prices (in progress)"          
                     />
 
-<ProjectCards
+                    <ProjectCards
+                    deployed="https://infinite-eyrie-10837.herokuapp.com"
+                    github="https://github.com/J-danger/Project-3"
+                    image={project3}
+                    title="Stack Underflow"
+                    category="A MERN Stack forum for web dev beginners"
+          
+                    />
+
+                    <ProjectCards
+                    deployed="https://nameless-citadel-00694.herokuapp.com/"
+                    github="https://github.com/J-danger/FriendFinder"
+                    image={friend}
+                    title="Friend Finder"
+                    category="A friend finder app using Javascript calculations"
+          
+                    />
+
+                    <ProjectCards
                     deployed="https://radiant-falls-98785.herokuapp.com/"
                     github="https://github.com/J-danger/tic-tac-toe"
                     image={tictactoe}
