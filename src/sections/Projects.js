@@ -35,7 +35,7 @@ class Projects extends Component {
                     category="A Javascript based Gem Collector Game"                    
                     />
 
-                     <ProjectCards
+                    <ProjectCards
                     deployed="https://j-danger.github.io/Clicky-game/"
                     github="https://github.com/J-danger/Clicky-game"
                     image={clicky}
@@ -68,14 +68,14 @@ class Projects extends Component {
                     target="_blank"
                     git=""
                     />
-
+{/* 
                     <ProjectCards
                     deployed="https://btclast.herokuapp.com/"
                     github="https://github.com/J-danger/React-API-Calls"
                     image={bitcoin}
                     title="Bitcoin Price tracker"
                     category="A React app for tracking crypto prices (in progress)"          
-                    />
+                    /> */}
 
                     <ProjectCards
                     deployed="https://infinite-eyrie-10837.herokuapp.com"
@@ -91,14 +91,6 @@ class Projects extends Component {
                     image={friend}
                     title="Friend Finder"
                     category="A friend finder app using Javascript calculations"          
-                    />
-
-                    <ProjectCards
-                    deployed="https://radiant-falls-98785.herokuapp.com/"
-                    github="https://github.com/J-danger/tic-tac-toe"
-                    image={tictactoe}
-                    title="Tic-Tac-Toe"
-                    category="Tic-Tac-Toe utilizing React Hooks and Javascript"          
                     />
                         </div>
                 </div>
