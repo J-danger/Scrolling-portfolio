@@ -68,14 +68,14 @@ class Projects extends Component {
                     target="_blank"
                     git=""
                     />
-{/* 
+ 
                     <ProjectCards
                     deployed="https://btclast.herokuapp.com/"
-                    github="https://github.com/J-danger/React-API-Calls"
+                    github="https://github.com/J-danger/btcLast-ExpressProxy"
                     image={bitcoin}
                     title="Bitcoin Price tracker"
                     category="A React app for tracking crypto prices (in progress)"          
-                    /> */}
+                    /> 
 
                     <ProjectCards
                     deployed="https://infinite-eyrie-10837.herokuapp.com"
@@ -90,7 +90,7 @@ class Projects extends Component {
                     github="https://github.com/J-danger/FriendFinder"
                     image={friend}
                     title="Friend Finder"
-                    category="A friend finder app using Javascript calculations"          
+                    category="A friend finder app using Javascript"          
                     />
                         </div>
                 </div>
